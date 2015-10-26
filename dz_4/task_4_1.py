@@ -24,7 +24,7 @@ def save_to_pickle(data): #сохранение в pickle
         
         pickle.dump(data,f) #запись объекта в файл
 
-        f.close()
+    f.close()
 
 def inter_operation(): #ввод операции
 
